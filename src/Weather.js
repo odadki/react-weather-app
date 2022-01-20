@@ -28,7 +28,7 @@ export default function Weather() {
         <li>Wednesday 07:00</li>
         <li>Mostly Cloudy</li>
       </ul>
-      <div className="row">
+      <div className="row mt-3">
         <div className="col-6">
           <div className="clearfix">
             <img
@@ -36,9 +36,10 @@ export default function Weather() {
               alt="Fog"
               className="float-left"
             />
-
-            <span className="temperature">6</span>
-            <span className="unit">°C</span>
+            <span className="float-left">
+              <span className="temperature">6</span>
+              <span className="unit">°C</span>
+            </span>
           </div>
         </div>
         <div className="col-6">
