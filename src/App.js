@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Weather app</h1>
+      <h1>React Weather App</h1>
       <Weather defaultCity="New York" />
       <footer>
         This project is{" "}
