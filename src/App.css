@@ -1,9 +1,17 @@
 .App {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+h1 {
+  font-family: "Sintony", sans-serif;
+}
+
+.app-style {
+  color: #4b6393;
 }

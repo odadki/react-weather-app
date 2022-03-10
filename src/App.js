@@ -5,7 +5,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>React Weather App</h1>
+      <h1>
+        <em>
+          <strong>Weather</strong>
+          <span className="app-style">App</span>
+        </em>
+      </h1>
       <Weather defaultCity="New York" />
       <footer>
         This project is{" "}
