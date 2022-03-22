@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>
+      <h1 className="app-title">
         <em>
           <strong>Weather</strong>
           <span className="app-style">App</span>

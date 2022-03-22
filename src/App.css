@@ -1,6 +1,12 @@
 .App {
-  max-width: 600px;
+  display: block;
+
+  max-width: 800px;
   margin: 50px auto;
+}
+
+.App .app-title {
+  margin-bottom: 30px;
 }
 
 .App footer {
@@ -14,4 +20,16 @@ h1 {
 
 .app-style {
   color: #4b6393;
+}
+
+@media (max-width: 808px) {
+  .App .app-title {
+    margin-left: 24px;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
 }

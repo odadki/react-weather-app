@@ -60,3 +60,9 @@
   top: -32px;
   margin-left: 5px;
 }
+
+@media (max-width: 808px) {
+  .Weather {
+    border: none;
+  }
+}
